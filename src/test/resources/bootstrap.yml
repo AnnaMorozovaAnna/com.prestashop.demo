@@ -1,0 +1,7 @@
+profiles.ui: ui-common, env-local
+
+spring:
+  config:
+    location: classpath:ui/application.yml, classpath:application.yml
+  profiles:
+    active: ui-common, env-local

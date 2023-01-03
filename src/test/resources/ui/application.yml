@@ -1,0 +1,23 @@
+spring:
+  config:
+    activate:
+      on-profile: ui-common
+
+web.app.name: prestashop
+foo.message: It can be implemented if needs
+
+---
+spring:
+  config:
+    activate:
+      on-profile: env-prod-demo
+
+web.link: https://demo.prestashop.com/
+
+#---
+#spring:
+#  config:
+#    activate:
+#      on-profile: env-local
+#
+#web.link: https://demo.localhost.com/
